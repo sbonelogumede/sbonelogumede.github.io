@@ -87,18 +87,18 @@ footer a:hover {
    }
 }
 
-/* RESUME */
-.resume header::before {
+/* cv */
+.cv header::before {
    background: url(../images/dell-website-background.jpg) center;
    background-size: cover;
    content: "";
    display: block;
    height: 375px;
 }
-.resume-section {
+.cv-section {
    margin-bottom: 50px;
 }
-.resume-section h2 {
+.cv-section h2 {
    border-bottom: 2px dashed #D3D4D6;
 }
 .download-link {
@@ -113,7 +113,7 @@ footer a:hover {
    }
 }
 @media screen and (max-width:500px){
-   .resume header::before{
+   .cv header::before{
       height:200px;
    }
    h1{
